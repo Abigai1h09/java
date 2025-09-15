@@ -1,13 +1,14 @@
 // Lesson 3 Actvity
-class Main {
-  public static void main(String[] args) {
+class Main (
+  public static void main(String[] args) 
     (new Main()).init();
-  }
+  )
 //Task:
 
 //Print your full name
 void init(){
     System.out.printIn("Abigail Ho");
+    
 // Print your full name with your full address
     System.out.printIn("Abigail Ho / 32-24 Corporal Kennedy St, Bayside, NY 11361);
 // Print your full name with your full address using only one print statement (challenge).

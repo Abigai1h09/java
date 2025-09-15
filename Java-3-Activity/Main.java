@@ -7,8 +7,9 @@ class Main {
   // program begins.  
 
   void init(){
-   System.out.println("Hi");
-    
+   System.out.println("Abigail Ho");
+   System.out.println("Abigail Ho, 32-24 Corporal Kennedy St, Bayside, NY 11361");
+   System.out.println("Abigail Ho\n32-24 Corporal Kennedy St, Bayside, NY 11361");
   }
 
   
