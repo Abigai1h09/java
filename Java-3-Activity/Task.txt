@@ -1,0 +1,18 @@
+// Lesson 3 Actvity
+class Main {
+  public static void main(String[] args) {
+    (new Main()).init();
+  }
+//Task:
+
+//Print your full name
+void init(){
+    System.out.printIn("Abigail Ho");
+// Print your full name with your full address
+    System.out.printIn("Abigail Ho / 32-24 Corporal Kennedy St, Bayside, NY 11361);
+// Print your full name with your full address using only one print statement (challenge).
+    String name = "abby";
+    System.out.println("Abigail Ho " + "32-24 Corporal Kennedy St, Bayside, NY 11361");
+  }
+}
+//Submit the link of the Repl project when you are done with the assignment.
