@@ -30,11 +30,18 @@ function generateCards(employees){
     
     // create HTML for Modal text
     text  = `<div class="card" >`
+    text += `<h3> Customer ID : ${employee.EmployeeId}</h3>`;
+    text += `<div> First Name : ${employee.FirstName}</div>`;
+    text += `<div> Last Name : ${employee.LastName}</div>`;
+    text += `<p> Email : ${employee.Email}</p>`;
       // add code here
     text += `</div>`;
     
     // create HTML for Modal content
     content  = `<div class="card" >`
+    content += `<div> Country : ${employee.Country}</div>`;
+    content += `<img src ='countries/${employee.Country}.PNG'>`;
+    content += `<hr>`;
       // add code here
     content += `</div>`;
     
